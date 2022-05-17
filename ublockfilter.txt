@@ -1,3 +1,5 @@
+!Title: ItzSetnex uBlock Filter
+
 #loader.to
 loader.to###menu
 loader.to##.social
