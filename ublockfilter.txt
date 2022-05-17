@@ -1,0 +1,55 @@
+#loader.to
+loader.to###menu
+loader.to##.social
+loader.to##[href="https://convertr.org"]
+loader.to##[href^="https://veed.io"]
+loader.to##[href^="https://www.byclickdownloader.com"]
+loader.to###chrome_addon
+loader.to###safari_addon
+
+#vk.com
+||vk.com/js/al/mrtarg.js$important
+||st.vk.com/css/al/mrtarg.*.css$important
+||trk.mail.ru^$important
+||vk.com/al_audio.php?act=start_playback$important
+||vk.com/al_audio.php?act=player_error_stats$important
+||vk.com/al_audio.php?act=ad_event$important
+||vk.com/al_audio.php?act=listened_data$important
+vk.com###feed_filters
+vk.com##.im_chat-input--buttons
+
+#music.yandex.ru
+music.yandex.ru##.head-kids__plus-points.plus-points
+music.yandex.ru##.teaser
+music.yandex.ru##.popup_modal.deco-pane-popup.popup.pay-promo-popup
+
+#pikabu.ru
+@@||cs.pikabu.ru/apps/ub/*$1p
+@@||cs.pikabu.ru/images/*$1p
+||cs.pikabu.ru/*/analytics.js$script,1p,important
+||cs.pikabu.ru/images/px.gif$image,1p,important
+
+#soundcloud.com
+soundcloud.com##.l-inner-fullwidth.l-product-banners > .l-container
+
+#disk.yandex.ru
+disk.yandex.ru##.InfoSpace__Button.Button2_width_max.Button2_size_m.Button2_view_raised.Button2
+
+#spotify.com
+www.spotify.com##.lUEmt.Hero__StyledLandingHero-sc-bmiaux-0.gkSuof.components__Wrapper-sc-vfgrse-0.dClOXH.components__Background-sc-1igokmn-1
+
+#1001tracklists.com
+www.1001tracklists.com##.mb10
+www.1001tracklists.com##.mb5.adIDiv
+
+#pastebin.com
+pastebin.com##.js-sidebar-sticky.sidebar__sticky > div > div:nth-of-type(1)
+pastebin.com##.js-sidebar-sticky.sidebar__sticky > div
+
+#unsplash.com
+unsplash.com###app > div > div.M5vdR.U8eXG.bYpwS.rJ2xz:nth-of-type(3)
+unsplash.com###app > div > div:nth-of-type(4)
+
+#genius.com
+genius.com##.cSKAwQ.SectionLeaderboard__Container-sc-1pjk0bw-0
+
