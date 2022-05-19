@@ -24,6 +24,10 @@ vk.com##.im_chat-input--buttons
 music.yandex.ru##.head-kids__plus-points.plus-points
 music.yandex.ru##.teaser
 music.yandex.ru##.popup_modal.deco-pane-popup.popup.pay-promo-popup
+music.yandex.ru##.multi-auth__plus-rainbow.multi-auth__plus
+music.yandex.ru##.deco-link_no-hover-color.d-link_no-hover-color.deco-popup-menu__item.multi-auth__support.typo-main.multi-auth__item.deco-link.d-link
+music.yandex.ru##.d-link_no-hover.deco-link_no-hover-color.d-link_no-hover-color.deco-popup-menu__item.multi-auth__diag.typo-main.multi-auth__item.deco-link.d-link
+music.yandex.ru##.footer
 
 #pikabu.ru
 @@||cs.pikabu.ru/apps/ub/*$1p
@@ -55,3 +59,6 @@ unsplash.com###app > div > div:nth-of-type(4)
 #genius.com
 genius.com##.cSKAwQ.SectionLeaderboard__Container-sc-1pjk0bw-0
 
+#igram.io
+igram.io##.is-open.micromodal-slide.modal
+igram.io###overlayimage
