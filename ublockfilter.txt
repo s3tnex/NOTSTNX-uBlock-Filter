@@ -62,3 +62,19 @@ genius.com##.cSKAwQ.SectionLeaderboard__Container-sc-1pjk0bw-0
 #igram.io
 igram.io##.is-open.micromodal-slide.modal
 igram.io###overlayimage
+
+#soundcloud.com
+soundcloud.com##.header__proUpsell.header__link.sc-link.creatorSubscriptionsButton
+soundcloud.com##.profileMenu__premium.headerMenu__link.sc-link.creatorSubscriptionsButton
+soundcloud.com##.profileMenu__partnerOffers.headerMenu__link
+soundcloud.com##ul.sc-list-nostyle.headerMenu__list:nth-of-type(1) > li:nth-of-type(1) > .moreMenu__link.headerMenu__link
+soundcloud.com##ul.sc-list-nostyle.headerMenu__list:nth-of-type(1) > li:nth-of-type(2) > .moreMenu__link.headerMenu__link
+soundcloud.com##ul.sc-list-nostyle.headerMenu__list:nth-of-type(1) > li:nth-of-type(3) > .moreMenu__link.headerMenu__link
+soundcloud.com##ul.sc-list-nostyle.headerMenu__list:nth-of-type(2) > li:nth-of-type(1) > .moreMenu__link.headerMenu__link
+soundcloud.com##ul.sc-list-nostyle.headerMenu__list:nth-of-type(2) > li:nth-of-type(2) > .moreMenu__link.headerMenu__link
+soundcloud.com##ul.sc-list-nostyle.headerMenu__list:nth-of-type(2) > li:nth-of-type(3) > .moreMenu__link.headerMenu__link
+soundcloud.com##li:nth-of-type(4) > .moreMenu__link.headerMenu__link
+soundcloud.com##li:nth-of-type(5) > .moreMenu__link.headerMenu__link
+soundcloud.com##ul.sc-list-nostyle.headerMenu__list:nth-of-type(3) > li:nth-of-type(1) > .moreMenu__link.headerMenu__link
+soundcloud.com##ul.sc-list-nostyle.headerMenu__list:nth-of-type(4) > li:nth-of-type(1) > .moreMenu__link.headerMenu__link
+soundcloud.com##.sc-border-light-top.standard.sc-text-secondary.sc-text-verylight.l-footer
