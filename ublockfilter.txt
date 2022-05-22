@@ -78,3 +78,18 @@ soundcloud.com##li:nth-of-type(5) > .moreMenu__link.headerMenu__link
 soundcloud.com##ul.sc-list-nostyle.headerMenu__list:nth-of-type(3) > li:nth-of-type(1) > .moreMenu__link.headerMenu__link
 soundcloud.com##ul.sc-list-nostyle.headerMenu__list:nth-of-type(4) > li:nth-of-type(1) > .moreMenu__link.headerMenu__link
 soundcloud.com##.sc-border-light-top.standard.sc-text-secondary.sc-text-verylight.l-footer
+
+#pastebin.com
+pastebin.com##.js-post-view.post-view > div:nth-of-type(3) > div:nth-of-type(1)
+pastebin.com##.js-post-view.post-view > div:nth-of-type(3)
+
+#soundiiz.com
+||soundiiz.com/build/images/e0f3ebc2..svg$image
+
+#mangalib.me
+mangalib.me###chat
+mangalib.me##.top-user-list.paper.aside__panel
+mangalib.me##.h-lists
+mangalib.me##[href="https://mangalib.me/faq"]
+mangalib.me##div.header-menu__item > [href="https://mangalib.me/forum"]
+mangalib.me##.header-button.dropdown.header-menu__item > .header-button__icon
