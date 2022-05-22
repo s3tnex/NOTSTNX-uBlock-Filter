@@ -19,6 +19,10 @@ loader.to###safari_addon
 ||vk.com/al_audio.php?act=listened_data$important
 vk.com###feed_filters
 vk.com##.im_chat-input--buttons
+m.vk.com##div.basisDefault__row:nth-of-type(4)
+m.vk.com##div.basisDefault__row:nth-of-type(5)
+m.vk.com##.Friends__requests
+m.vk.com##.feedAssistance_recommendedFriends.friendsRecommendedSliderWrap.feedAssistance.wall_item
 
 #music.yandex.ru
 music.yandex.ru##.head-kids__plus-points.plus-points
