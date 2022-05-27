@@ -25,6 +25,7 @@ m.vk.com##.Friends__requests
 m.vk.com##.feedAssistance_recommendedFriends.friendsRecommendedSliderWrap.feedAssistance.wall_item
 m.vk.com##.GroupsRecommendedSlider.feedAssistance.wall_item
 m.vk.com##.mmi_ads
+m.vk.com##a.Row.al_menu.MainMenu__menuItem:nth-of-type(12)
 
 #music.yandex.ru
 music.yandex.ru##.head-kids__plus-points.plus-points
@@ -83,6 +84,7 @@ m.soundcloud.com##.Header_RightContainer__1VyFh
 m.soundcloud.com##.Me_GreenCtaContainer__zpqfE.Me_CtaContainer__mg8ss
 m.soundcloud.com##.Footer_Footer__2jdsC > div
 soundcloud.com##.l-inner-fullwidth.l-product-banners > .l-container
+m.soundcloud.com##.HomePageHeroImage_HeroContainer__3iuuI
 
 #mangalib.me
 mangalib.me###chat
@@ -91,3 +93,13 @@ mangalib.me##.h-lists
 mangalib.me##[href="https://mangalib.me/faq"]
 mangalib.me##div.header-menu__item > [href="https://mangalib.me/forum"]
 mangalib.me##.header-button.dropdown.header-menu__item > .header-button__icon
+
+#4pda.to
+4pda.to##.j3FWmSGHOxLmN0VrSoAm8.zi28z1
+4pda.to##[href^="https://4pda.to/huawei/"]
+
+#news.mail.ru
+news.mail.ru##.wrapper_banner.wrapper
+
+#rule34.xxx
+rule34.xxx##div:nth-of-type(3) > p:nth-of-type(2)
