@@ -51,10 +51,6 @@ www.spotify.com##.lUEmt.Hero__StyledLandingHero-sc-bmiaux-0.gkSuof.components__W
 www.1001tracklists.com##.mb10
 www.1001tracklists.com##.mb5.adIDiv
 
-#pastebin.com
-pastebin.com##.js-sidebar-sticky.sidebar__sticky > div > div:nth-of-type(1)
-pastebin.com##.js-sidebar-sticky.sidebar__sticky > div
-
 #unsplash.com
 unsplash.com###app > div > div.M5vdR.U8eXG.bYpwS.rJ2xz:nth-of-type(3)
 unsplash.com###app > div > div:nth-of-type(4)
@@ -87,13 +83,6 @@ m.soundcloud.com##.Header_RightContainer__1VyFh
 m.soundcloud.com##.Me_GreenCtaContainer__zpqfE.Me_CtaContainer__mg8ss
 m.soundcloud.com##.Footer_Footer__2jdsC > div
 soundcloud.com##.l-inner-fullwidth.l-product-banners > .l-container
-
-#pastebin.com
-pastebin.com##.js-post-view.post-view > div:nth-of-type(3) > div:nth-of-type(1)
-pastebin.com##.js-post-view.post-view > div:nth-of-type(3)
-pastebin.com##.top-footer
-pastebin.com##.footer
-pastebin.com##.content > div:nth-of-type(1) > div:nth-of-type(1)
 
 #mangalib.me
 mangalib.me###chat
