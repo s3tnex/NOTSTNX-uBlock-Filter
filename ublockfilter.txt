@@ -93,6 +93,27 @@ mangalib.me##.h-lists
 mangalib.me##[href="https://mangalib.me/faq"]
 mangalib.me##div.header-menu__item > [href="https://mangalib.me/forum"]
 mangalib.me##.header-button.dropdown.header-menu__item > .header-button__icon
+! 2022-05-27 https://music.youtube.com
+music.youtube.com###share-targets
+
+! 2022-05-28 https://music.youtube.com
+music.youtube.com##ytmusic-tastebuilder-shelf-renderer.ytmusic-section-list-renderer.style-scope
+
+#ranobelib.me
+ranobelib.me###chat
+ranobelib.me##.top-user-list.paper.aside__panel
+ranobelib.me##.h-lists
+ranobelib.me##[href="https://ranobelib.me/faq"]
+ranobelib.me##div.header-menu__item > [href="https://ranobelib.me/forum"]
+ranobelib.me##.header-button.dropdown.header-menu__item > .header-button__icon
+
+#hentailib.me
+hentailib.me###chat
+hentailib.me##.top-user-list.paper.aside__panel
+hentailib.me##.h-lists
+hentailib.me##[href="https://hentailib.me/faq"]
+hentailib.me##div.header-menu__item > [href="https://hentailib.me/forum"]
+hentailib.me##.header-button.dropdown.header-menu__item > .header-button__icon
 
 #4pda.to
 4pda.to##.j3FWmSGHOxLmN0VrSoAm8.zi28z1
@@ -100,6 +121,3 @@ mangalib.me##.header-button.dropdown.header-menu__item > .header-button__icon
 
 #news.mail.ru
 news.mail.ru##.wrapper_banner.wrapper
-
-#rule34.xxx
-rule34.xxx##div:nth-of-type(3) > p:nth-of-type(2)
