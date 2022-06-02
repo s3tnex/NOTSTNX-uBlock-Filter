@@ -93,11 +93,10 @@ mangalib.me##.h-lists
 mangalib.me##[href="https://mangalib.me/faq"]
 mangalib.me##div.header-menu__item > [href="https://mangalib.me/forum"]
 mangalib.me##.header-button.dropdown.header-menu__item > .header-button__icon
-! 2022-05-27 https://music.youtube.com
-music.youtube.com###share-targets
 
-! 2022-05-28 https://music.youtube.com
+#music.youtube.com
 music.youtube.com##ytmusic-tastebuilder-shelf-renderer.ytmusic-section-list-renderer.style-scope
+music.youtube.com###share-targets
 
 #ranobelib.me
 ranobelib.me###chat
