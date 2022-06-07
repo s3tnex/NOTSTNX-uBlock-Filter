@@ -120,3 +120,16 @@ hentailib.me##.header-button.dropdown.header-menu__item > .header-button__icon
 
 #news.mail.ru
 news.mail.ru##.wrapper_banner.wrapper
+
+#apkcombo.com
+apkcombo.com##div.revamp-top-ads.revamp-ads3
+apkcombo.com##.revamp-bottom-ads.revamp-ads3
+apkcombo.com##.navbar-end > a.navbar-item:nth-of-type(2)
+apkcombo.com##.navbar-end > a.navbar-item:nth-of-type(1)
+apkcombo.com##.mb-14.button-group > p
+
+#apkmirror.com
+www.apkmirror.com##.button.dropdown-premium.dropdown
+
+#animego.org
+animego.org###wrap > .d-flex
