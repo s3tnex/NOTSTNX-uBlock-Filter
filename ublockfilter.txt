@@ -130,6 +130,7 @@ apkcombo.com##.mb-14.button-group > p
 
 #apkmirror.com
 www.apkmirror.com##.button.dropdown-premium.dropdown
+www.apkmirror.com##.f-sm-50.center > div > .EeZ
 
 #animego.org
 animego.org###wrap > .d-flex
