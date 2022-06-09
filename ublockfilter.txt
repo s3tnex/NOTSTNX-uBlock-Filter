@@ -133,3 +133,6 @@ www.apkmirror.com##.button.dropdown-premium.dropdown
 
 #animego.org
 animego.org###wrap > .d-flex
+
+#leak.sx
+leak.sx##.progress-wrap
