@@ -46,7 +46,11 @@ music.yandex.ru##.footer
 disk.yandex.ru##.InfoSpace__Button.Button2_width_max.Button2_size_m.Button2_view_raised.Button2
 
 #spotify.com
-www.spotify.com##.lUEmt.Hero__StyledLandingHero-sc-bmiaux-0.gkSuof.components__Wrapper-sc-vfgrse-0.dClOXH.components__Background-sc-1igokmn-1
+www.spotify.com##.YIgoL.sc-ecaa83ee-0.clYSpp.sc-gKXOVf.ftdEmL.sc-hKMtZM
+open.spotify.com##.Foyk_HJx16yh22JYmQ56
+open.spotify.com##li.DuEPSADpSwCcO880xjUG:nth-of-type(3) > .wC9sIed7pfp47wZbmU6m
+open.spotify.com##.Upqw01TOXETOmR5Td7Dj.jjUWAm.Button-y0gtbx-0
+open.spotify.com##a.Mn86uNsAfw66AwsZTQ1D:nth-of-type(4)
 
 #1001tracklists.com
 www.1001tracklists.com##.mb10
@@ -85,6 +89,7 @@ m.soundcloud.com##.Me_GreenCtaContainer__zpqfE.Me_CtaContainer__mg8ss
 m.soundcloud.com##.Footer_Footer__2jdsC > div
 soundcloud.com##.l-inner-fullwidth.l-product-banners > .l-container
 m.soundcloud.com##.HomePageHeroImage_HeroContainer__3iuuI
+m.soundcloud.com##.Me_OrangeCtaContainer__3NtxC.Me_CtaContainer__mg8ss
 
 #mangalib.me
 mangalib.me###chat
@@ -115,7 +120,7 @@ hentailib.me##div.header-menu__item > [href="https://hentailib.me/forum"]
 hentailib.me##.header-button.dropdown.header-menu__item > .header-button__icon
 
 #4pda.to
-4pda.to##.j3FWmSGHOxLmN0VrSoAm8.zi28z1
+4pda.to###TsDSwZh3cN
 4pda.to##[href^="https://4pda.to/huawei/"]
 
 #news.mail.ru
@@ -137,3 +142,6 @@ animego.org###wrap > .d-flex
 
 #leak.sx
 leak.sx##.progress-wrap
+
+#mail.yandex.ru
+mail.yandex.ru##.smartBannerToast-container.smartBannerToast
