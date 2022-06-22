@@ -17,6 +17,7 @@ loader.to###safari_addon
 ||vk.com/al_audio.php?act=player_error_stats$important
 ||vk.com/al_audio.php?act=ad_event$important
 ||vk.com/al_audio.php?act=listened_data$important
+||vk.com/ads_rotate.php$important
 vk.com###feed_filters
 vk.com##.im_chat-input--buttons
 m.vk.com##div.basisDefault__row:nth-of-type(4)
@@ -25,7 +26,6 @@ m.vk.com##.Friends__requests
 m.vk.com##.feedAssistance_recommendedFriends.friendsRecommendedSliderWrap.feedAssistance.wall_item
 m.vk.com##.GroupsRecommendedSlider.feedAssistance.wall_item
 m.vk.com##.mmi_ads
-m.vk.com##a.Row.al_menu.MainMenu__menuItem:nth-of-type(12)
 
 #music.yandex.ru
 music.yandex.ru##.head-kids__plus-points.plus-points
@@ -82,12 +82,12 @@ soundcloud.com##li:nth-of-type(5) > .moreMenu__link.headerMenu__link
 soundcloud.com##ul.sc-list-nostyle.headerMenu__list:nth-of-type(3) > li:nth-of-type(1) > .moreMenu__link.headerMenu__link
 soundcloud.com##ul.sc-list-nostyle.headerMenu__list:nth-of-type(4) > li:nth-of-type(1) > .moreMenu__link.headerMenu__link
 soundcloud.com##.sc-border-light-top.standard.sc-text-secondary.sc-text-verylight.l-footer
+soundcloud.com##.l-inner-fullwidth.l-product-banners > .l-container
 m.soundcloud.com##li.NavBar_NavBarLinkItemWrapper__dlEcJ:nth-of-type(5)
 m.soundcloud.com##.Header_SecondaryCta__2nyWn
 m.soundcloud.com##.Header_RightContainer__1VyFh
 m.soundcloud.com##.Me_GreenCtaContainer__zpqfE.Me_CtaContainer__mg8ss
 m.soundcloud.com##.Footer_Footer__2jdsC > div
-soundcloud.com##.l-inner-fullwidth.l-product-banners > .l-container
 m.soundcloud.com##.HomePageHeroImage_HeroContainer__3iuuI
 m.soundcloud.com##.Me_OrangeCtaContainer__3NtxC.Me_CtaContainer__mg8ss
 
@@ -99,9 +99,13 @@ mangalib.me##[href="https://mangalib.me/faq"]
 mangalib.me##div.header-menu__item > [href="https://mangalib.me/forum"]
 mangalib.me##.header-button.dropdown.header-menu__item > .header-button__icon
 
-#music.youtube.com
-music.youtube.com##ytmusic-tastebuilder-shelf-renderer.ytmusic-section-list-renderer.style-scope
-music.youtube.com###share-targets
+#mangalib.org
+mangalib.org###chat
+mangalib.org##.top-user-list.paper.aside__panel
+mangalib.org##.h-lists
+mangalib.org##[href="https://mangalib.me/faq"]
+mangalib.org##div.header-menu__item > [href="https://mangalib.me/forum"]
+mangalib.org##.header-button.dropdown.header-menu__item > .header-button__icon
 
 #ranobelib.me
 ranobelib.me###chat
@@ -145,3 +149,13 @@ leak.sx##.progress-wrap
 
 #mail.yandex.ru
 mail.yandex.ru##.smartBannerToast-container.smartBannerToast
+
+#reverso.net
+www.reverso.net##.translation-box_documents-promo-tabs
+
+#music.youtube.com
+music.youtube.com##ytmusic-tastebuilder-shelf-renderer.ytmusic-section-list-renderer.style-scope
+music.youtube.com###share-targets
+
+#23.allhen.online
+23.allhen.online##.mainNews
