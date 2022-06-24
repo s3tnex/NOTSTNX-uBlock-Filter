@@ -103,8 +103,8 @@ mangalib.me##.header-button.dropdown.header-menu__item > .header-button__icon
 mangalib.org###chat
 mangalib.org##.top-user-list.paper.aside__panel
 mangalib.org##.h-lists
-mangalib.org##[href="https://mangalib.me/faq"]
-mangalib.org##div.header-menu__item > [href="https://mangalib.me/forum"]
+mangalib.org##[href="https://mangalib.org/faq"]
+mangalib.org##div.header-menu__item > [href="https://mangalib.org/forum"]
 mangalib.org##.header-button.dropdown.header-menu__item > .header-button__icon
 
 #ranobelib.me
