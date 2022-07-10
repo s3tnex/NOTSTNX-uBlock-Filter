@@ -124,18 +124,6 @@ ranobelib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(
 ranobelib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(4)
 ranobelib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(7)
 
-#yaoilib.me
-yaoilib.me###chat
-yaoilib.me##.top-user-list.paper.aside__panel
-yaoilib.me##.h-lists
-yaoilib.me##[href="https://yaoilib.me/faq"]
-yaoilib.me##div.header-menu__item > [href="https://yaoilib.me/forum"]
-yaoilib.me##.header-button.dropdown.header-menu__item > .header-button__icon
-yaoilib.me##.py-10.px-10.m-menu__social
-yaoilib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(6)
-yaoilib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(4)
-yaoilib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(7)
-
 #4pda.to
 4pda.to###TsDSwZh3cN
 4pda.to##[href^="https://4pda.to/huawei/"]
