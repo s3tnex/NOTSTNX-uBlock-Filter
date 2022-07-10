@@ -94,29 +94,115 @@ m.soundcloud.com##.Footer_Footer__2jdsC > div
 m.soundcloud.com##.HomePageHeroImage_HeroContainer__3iuuI
 m.soundcloud.com##.Me_OrangeCtaContainer__3NtxC.Me_CtaContainer__mg8ss
 
-#mangalib.me
-mangalib.me###chat
-mangalib.me##.top-user-list.paper.aside__panel
-mangalib.me##.h-lists
-mangalib.me##[href="https://mangalib.me/faq"]
-mangalib.me##div.header-menu__item > [href="https://mangalib.me/forum"]
-mangalib.me##.header-button.dropdown.header-menu__item > .header-button__icon
+! Title: ItzSetnex uBlock Origin & AdGuard
 
-#mangalib.org
-mangalib.org###chat
-mangalib.org##.top-user-list.paper.aside__panel
-mangalib.org##.h-lists
-mangalib.org##[href="https://mangalib.org/faq"]
-mangalib.org##div.header-menu__item > [href="https://mangalib.org/forum"]
-mangalib.org##.header-button.dropdown.header-menu__item > .header-button__icon
+#loader.to
+loader.to###menu
+loader.to##.social
+loader.to##[href="https://convertr.org"]
+loader.to##[href^="https://veed.io"]
+loader.to##[href^="https://www.byclickdownloader.com"]
+loader.to###chrome_addon
+loader.to###safari_addon
 
-#ranobelib.me
-ranobelib.me###chat
-ranobelib.me##.top-user-list.paper.aside__panel
-ranobelib.me##.h-lists
-ranobelib.me##[href="https://ranobelib.me/faq"]
-ranobelib.me##div.header-menu__item > [href="https://ranobelib.me/forum"]
-ranobelib.me##.header-button.dropdown.header-menu__item > .header-button__icon
+#vk.com
+||vk.com/js/al/mrtarg.js$important
+||st.vk.com/css/al/mrtarg.*.css$important
+||trk.mail.ru^$important
+||vk.com/al_audio.php?act=start_playback$important
+||vk.com/al_audio.php?act=player_error_stats$important
+||vk.com/al_audio.php?act=ad_event$important
+||vk.com/al_audio.php?act=listened_data$important
+||vk.com/ads_rotate.php$important
+vk.com###feed_filters
+vk.com##.im_chat-input--buttons
+m.vk.com##div.basisDefault__row:nth-of-type(4)
+m.vk.com##div.basisDefault__row:nth-of-type(5)
+m.vk.com##.Friends__requests
+m.vk.com##.feedAssistance_recommendedFriends.friendsRecommendedSliderWrap.feedAssistance.wall_item
+m.vk.com##.GroupsRecommendedSlider.feedAssistance.wall_item
+m.vk.com##.mmi_ads
+
+#music.yandex.ru
+music.yandex.ru##.head-kids__plus-points.plus-points
+music.yandex.ru##.teaser
+music.yandex.ru##.popup_modal.deco-pane-popup.popup.pay-promo-popup
+music.yandex.ru##.multi-auth__plus-rainbow.multi-auth__plus
+music.yandex.ru##.deco-link_no-hover-color.d-link_no-hover-color.deco-popup-menu__item.multi-auth__support.typo-main.multi-auth__item.deco-link.d-link
+music.yandex.ru##.d-link_no-hover.deco-link_no-hover-color.d-link_no-hover-color.deco-popup-menu__item.multi-auth__diag.typo-main.multi-auth__item.deco-link.d-link
+music.yandex.ru##.footer
+
+#yandex.ru
+yandex.*##.RF__WI
+
+#pikabu.ru
+@@||cs.pikabu.ru/apps/ub/*$1p
+@@||cs.pikabu.ru/images/*$1p
+||cs.pikabu.ru/*/analytics.js$script,1p,important
+||cs.pikabu.ru/images/px.gif$image,1p,important
+
+#disk.yandex.ru
+disk.yandex.ru##.InfoSpace__Button.Button2_width_max.Button2_size_m.Button2_view_raised.Button2
+
+#spotify.com
+www.spotify.com##.YIgoL.sc-ecaa83ee-0.clYSpp.sc-gKXOVf.ftdEmL.sc-hKMtZM
+open.spotify.com##.Foyk_HJx16yh22JYmQ56
+open.spotify.com##li.DuEPSADpSwCcO880xjUG:nth-of-type(3) > .wC9sIed7pfp47wZbmU6m
+open.spotify.com##.Upqw01TOXETOmR5Td7Dj.jjUWAm.Button-y0gtbx-0
+open.spotify.com##a.Mn86uNsAfw66AwsZTQ1D:nth-of-type(4)
+
+#1001tracklists.com
+www.1001tracklists.com##.mb10
+www.1001tracklists.com##.mb5.adIDiv
+
+#unsplash.com
+unsplash.com###app > div > div.M5vdR.U8eXG.bYpwS.rJ2xz:nth-of-type(3)
+unsplash.com###app > div > div:nth-of-type(4)
+
+#genius.com
+genius.com##.cSKAwQ.SectionLeaderboard__Container-sc-1pjk0bw-0
+
+#igram.io
+igram.io##.is-open.micromodal-slide.modal
+igram.io###overlayimage
+
+#soundcloud.com
+soundcloud.com##.header__proUpsell.header__link.sc-link.creatorSubscriptionsButton
+soundcloud.com##.profileMenu__premium.headerMenu__link.sc-link.creatorSubscriptionsButton
+soundcloud.com##.profileMenu__partnerOffers.headerMenu__link
+soundcloud.com##ul.sc-list-nostyle.headerMenu__list:nth-of-type(1) > li:nth-of-type(1) > .moreMenu__link.headerMenu__link
+soundcloud.com##ul.sc-list-nostyle.headerMenu__list:nth-of-type(1) > li:nth-of-type(2) > .moreMenu__link.headerMenu__link
+soundcloud.com##ul.sc-list-nostyle.headerMenu__list:nth-of-type(1) > li:nth-of-type(3) > .moreMenu__link.headerMenu__link
+soundcloud.com##ul.sc-list-nostyle.headerMenu__list:nth-of-type(2) > li:nth-of-type(1) > .moreMenu__link.headerMenu__link
+soundcloud.com##ul.sc-list-nostyle.headerMenu__list:nth-of-type(2) > li:nth-of-type(2) > .moreMenu__link.headerMenu__link
+soundcloud.com##ul.sc-list-nostyle.headerMenu__list:nth-of-type(2) > li:nth-of-type(3) > .moreMenu__link.headerMenu__link
+soundcloud.com##li:nth-of-type(4) > .moreMenu__link.headerMenu__link
+soundcloud.com##li:nth-of-type(5) > .moreMenu__link.headerMenu__link
+soundcloud.com##ul.sc-list-nostyle.headerMenu__list:nth-of-type(3) > li:nth-of-type(1) > .moreMenu__link.headerMenu__link
+soundcloud.com##ul.sc-list-nostyle.headerMenu__list:nth-of-type(4) > li:nth-of-type(1) > .moreMenu__link.headerMenu__link
+soundcloud.com##.sc-border-light-top.standard.sc-text-secondary.sc-text-verylight.l-footer
+soundcloud.com##.l-inner-fullwidth.l-product-banners > .l-container
+m.soundcloud.com##li.NavBar_NavBarLinkItemWrapper__dlEcJ:nth-of-type(5)
+m.soundcloud.com##.Header_SecondaryCta__2nyWn
+m.soundcloud.com##.Header_RightContainer__1VyFh
+m.soundcloud.com##.Me_GreenCtaContainer__zpqfE.Me_CtaContainer__mg8ss
+m.soundcloud.com##.Footer_Footer__2jdsC > div
+m.soundcloud.com##.HomePageHeroImage_HeroContainer__3iuuI
+m.soundcloud.com##.Me_OrangeCtaContainer__3NtxC.Me_CtaContainer__mg8ss
+
+#mangalib.me & mangalib.org
+mangalib.*###chat
+mangalib.*##.top-user-list.paper.aside__panel
+mangalib.*##.h-lists
+mangalib.*##[href="https://mangalib.me/faq"]
+mangalib.*##[href="https://mangalib.org/faq"]
+mangalib.*##div.header-menu__item > [href="https://mangalib.me/forum"]
+mangalib.*##div.header-menu__item > [href="https://mangalib.org/forum"]
+mangalib.*##.header-button.dropdown.header-menu__item > .header-button__icon
+mangalib.*##.py-10.px-10.m-menu__social
+mangalib.*##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(6)
+mangalib.*##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(4)
+mangalib.*##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(7)
 
 #hentailib.me
 hentailib.me###chat
@@ -125,6 +211,79 @@ hentailib.me##.h-lists
 hentailib.me##[href="https://hentailib.me/faq"]
 hentailib.me##div.header-menu__item > [href="https://hentailib.me/forum"]
 hentailib.me##.header-button.dropdown.header-menu__item > .header-button__icon
+hentailib.me##.py-10.px-10.m-menu__social
+hentailib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(6)
+hentailib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(4)
+hentailib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(7)
+
+#ranobelib.me
+ranobelib.me###chat
+ranobelib.me##.top-user-list.paper.aside__panel
+ranobelib.me##.h-lists
+ranobelib.me##[href="https://ranobelib.me/faq"]
+ranobelib.me##div.header-menu__item > [href="https://ranobelib.me/forum"]
+ranobelib.me##.header-button.dropdown.header-menu__item > .header-button__icon
+ranobelib.me##.py-10.px-10.m-menu__social
+ranobelib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(6)
+ranobelib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(4)
+ranobelib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(7)
+
+#yaoilib.me
+yaoilib.me###chat
+yaoilib.me##.top-user-list.paper.aside__panel
+yaoilib.me##.h-lists
+yaoilib.me##[href="https://yaoilib.me/faq"]
+yaoilib.me##div.header-menu__item > [href="https://yaoilib.me/forum"]
+yaoilib.me##.header-button.dropdown.header-menu__item > .header-button__icon
+yaoilib.me##.py-10.px-10.m-menu__social
+yaoilib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(6)
+yaoilib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(4)
+yaoilib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(7)
+
+#4pda.to
+4pda.to###TsDSwZh3cN
+4pda.to##[href^="https://4pda.to/huawei/"]
+
+#news.mail.ru
+news.mail.ru##.wrapper_banner.wrapper
+
+#apkcombo.com
+apkcombo.com##div.revamp-top-ads.revamp-ads3
+apkcombo.com##.revamp-bottom-ads.revamp-ads3
+apkcombo.com##.navbar-end > a.navbar-item:nth-of-type(2)
+apkcombo.com##.navbar-end > a.navbar-item:nth-of-type(1)
+apkcombo.com##.mb-14.button-group > p
+
+#apkmirror.com
+www.apkmirror.com##.button.dropdown-premium.dropdown
+www.apkmirror.com##.f-sm-50.center > div > .EeZ
+
+#animego.org
+animego.org###wrap > .d-flex
+
+#leak.sx
+leak.sx##.progress-wrap
+
+#mail.yandex.ru
+mail.yandex.ru##.smartBannerToast-container.smartBannerToast
+
+#reverso.net
+www.reverso.net##.translation-box_documents-promo-tabs
+
+#music.youtube.com
+music.youtube.com##ytmusic-tastebuilder-shelf-renderer.ytmusic-section-list-renderer.style-scope
+music.youtube.com###share-targets
+
+#23.allhen.online
+23.allhen.online##.mainNews
+
+#wall.alphacoders.com
+wall.alphacoders.com##.ads-top-center.center
+wall.alphacoders.com###big_container > .ads-bottom-center.center
+wall.alphacoders.com##div.page_container > .ads-bottom-center.center
+wall.alphacoders.com###cookie_consent
+||static.alphacoders.com/tile.jpg$image
+wall.alphacoders.com##.ads-below-view-content.center
 
 #4pda.to
 4pda.to###TsDSwZh3cN
