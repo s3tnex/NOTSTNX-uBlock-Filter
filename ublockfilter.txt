@@ -26,7 +26,6 @@ yandex.*##.RF__WI
 disk.yandex.ru##.InfoSpace__Button.Button2_width_max.Button2_size_m.Button2_view_raised.Button2
 
 #spotify.com
-www.spotify.com##.YIgoL.sc-ecaa83ee-0.clYSpp.sc-gKXOVf.ftdEmL.sc-hKMtZM
 open.spotify.com##.Foyk_HJx16yh22JYmQ56
 open.spotify.com##li.DuEPSADpSwCcO880xjUG:nth-of-type(3) > .wC9sIed7pfp47wZbmU6m
 open.spotify.com##.Upqw01TOXETOmR5Td7Dj.jjUWAm.Button-y0gtbx-0
