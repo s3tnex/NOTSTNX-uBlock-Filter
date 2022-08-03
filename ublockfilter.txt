@@ -15,6 +15,18 @@ m.vk.com##.feedAssistance_promoButton.feedAssistance.wall_item
 m.vk.com##a.Row.al_menu.MainMenu__menuItem:nth-of-type(12)
 m.vk.com##div.basisDefault__row:nth-of-type(4)
 m.vk.com##div.basisDefault__row:nth-of-type(5)
+vk.com##.CatalogBlock__layout--placeholder.CatalogBlock__subscription_ru.CatalogBlock__content > .CatalogBlock__itemsContainer
+vk.com##.CatalogBlock__layout--in_block_separator.CatalogBlock__audio_friends_separator.CatalogBlock__content
+
+#remontka.pro
+remontka.pro##.yndx_top
+
+#newgrounds.com
+www.newgrounds.com##.ng-latest-supporter-wide
+
+#deezer.com
+||braze.com^$important
+||sascdn.com^$important
 
 #music.yandex.ru
 music.yandex.ru##.head-kids__plus-points.plus-points
