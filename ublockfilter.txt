@@ -63,9 +63,6 @@ mangalib.*##div.header-menu__item > [href="https://mangalib.me/forum"]
 mangalib.*##div.header-menu__item > [href="https://mangalib.org/forum"]
 mangalib.*##.header-button.dropdown.header-menu__item > .header-button__icon
 mangalib.*##.py-10.px-10.m-menu__social
-mangalib.*##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(6)
-mangalib.*##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(4)
-mangalib.*##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(7)
 
 #hentailib.me
 hentailib.me###chat
@@ -75,9 +72,6 @@ hentailib.me##[href="https://hentailib.me/faq"]
 hentailib.me##div.header-menu__item > [href="https://hentailib.me/forum"]
 hentailib.me##.header-button.dropdown.header-menu__item > .header-button__icon
 hentailib.me##.py-10.px-10.m-menu__social
-hentailib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(6)
-hentailib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(4)
-hentailib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(7)
 
 #ranobelib.me
 ranobelib.me###chat
@@ -87,9 +81,6 @@ ranobelib.me##[href="https://ranobelib.me/faq"]
 ranobelib.me##div.header-menu__item > [href="https://ranobelib.me/forum"]
 ranobelib.me##.header-button.dropdown.header-menu__item > .header-button__icon
 ranobelib.me##.py-10.px-10.m-menu__social
-ranobelib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(6)
-ranobelib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(4)
-ranobelib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(7)
 
 #yaoilib.me
 yaoilib.me###chat
@@ -99,9 +90,6 @@ yaoilib.me##[href="https://yaoilib.me/faq"]
 yaoilib.me##div.header-menu__item > [href="https://yaoilib.me/forum"]
 yaoilib.me##.header-button.dropdown.header-menu__item > .header-button__icon
 yaoilib.me##.py-10.px-10.m-menu__social
-yaoilib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(6)
-yaoilib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(4)
-yaoilib.me##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(7)
 
 #lib.social
 lib.social###chat
@@ -111,9 +99,6 @@ lib.social##[href="https://lib.social/faq"]
 lib.social##div.header-menu__item > [href="https://lib.social/forum"]
 lib.social##.header-button.dropdown.header-menu__item > .header-button__icon
 lib.social##.py-10.px-10.m-menu__social
-lib.social##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(6)
-lib.social##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(4)
-lib.social##.m-menu__scrollable > .m-menu__links > a.m-menu__link:nth-of-type(7)
 
 #4pda.to
 4pda.to###TsDSwZh3cN
