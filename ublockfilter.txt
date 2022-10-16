@@ -129,3 +129,7 @@ music.youtube.com###share-targets
 
 #23.allhen.online
 23.allhen.online##.mainNews
+
+#www.twitch.tv
+www.twitch.tv##.front-page-carousel.glKbrp.Layout-sc-nxg1ff-0
+www.twitch.tv##div.side-nav-section.cIfBon.Layout-sc-nxg1ff-0:nth-of-type(2)
