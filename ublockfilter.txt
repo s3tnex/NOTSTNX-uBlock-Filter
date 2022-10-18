@@ -133,3 +133,10 @@ music.youtube.com###share-targets
 #www.twitch.tv
 www.twitch.tv##.front-page-carousel.glKbrp.Layout-sc-nxg1ff-0
 www.twitch.tv##div.side-nav-section.cIfBon.Layout-sc-nxg1ff-0:nth-of-type(2)
+
+
+#wallpaperaccess.com
+wallpaperaccess.com##.content-center.flexbox_item
+
+#soundcloud.com
+@@||va.sndcdn.com/bg/*
