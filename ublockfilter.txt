@@ -9,6 +9,7 @@
 ||vk.com/al_audio.php?act=ad_event$important
 ||vk.com/al_audio.php?act=listened_data$important
 ||vk.com/ads_rotate.php$important
+||api.mycdn.me/api/log^
 m.vk.com##.mmi_ads
 m.vk.com##.feedAssistance_recommendedFriends.friendsRecommendedSliderWrap.feedAssistance.wall_item
 m.vk.com##.feedAssistance_promoButton.feedAssistance.wall_item
