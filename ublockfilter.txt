@@ -117,6 +117,7 @@ animego.org###wrap > .d-flex
 
 #leak.sx
 leak.sx##.progress-wrap
+leak.sx##body > .d-sm-block.d-none
 
 #mail.yandex.ru
 mail.yandex.ru##.smartBannerToast-container.smartBannerToast
