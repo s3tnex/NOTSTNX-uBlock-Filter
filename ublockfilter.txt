@@ -266,7 +266,7 @@ bin.sx##center.noads:nth-of-type(2)
 bin.sx##.movilno
 
 #comohoy.com
-comohoy.com##body > .d-sm-block.d-none
+comohoy.com##.d-sm-block.d-none
 
 #leak.sx
 leak.sx##.noads
@@ -278,6 +278,7 @@ leak.sx##.breadcrumb__list
 leak.sx##div.col-sm-6.col-md-6.col-lg-4.col-xl-4.col-xxl-4 > [href="https://pornleaks.in/"]
 leak.sx##.col-sm-12.col-md-12.col-lg-4.col-xl-4.col-xxl-4
 leak.sx##footer
+leak.sx##.d-sm-block.d-none
 
 #animego.org
 animego.org###wrap > .d-flex
