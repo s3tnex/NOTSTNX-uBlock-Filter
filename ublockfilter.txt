@@ -1,6 +1,43 @@
-! Title: ItzSetnex uBlock Origin & AdGuard
+! Title: JAFFA
+
+#just another filter for adguard (& ublock origin)
 
 #vk.com
+~vk.com###vkMsg
+##.ads300-thumb
+##.ads600x200
+##.ads_600x200
+##.adsbyyottos
+##.trg-b-banner-block
+###ads_left
+vk.com###ads_left
+vk.com##.audio_subscribe_promo__content
+vk.com###apps_ads_wrap
+vk.com###ads_special_promo_wrap
+vk.com###apps_ads_wrap
+vk.com##._ads_promoted_post_data_w
+vk.com##.ads_ads_news_wrap
+vk.com##div#left_ads
+vk.com##.ads_ads_box
+vk.com##.ads_ads_news_wrap
+~vk.com##div[id^="vk_ads_"]
+vk.com#$##ads_left { position: absolute; top: -2500px; }
+vk.com#%#//scriptlet("set-constant", "noAds", "true")
+vk.com#%#//scriptlet("set-constant", "noAdsAtAll", "true")
+vk.com#%#//scriptlet("set-constant", "no_left_ads", "true")
+vk.com#%#//scriptlet("set-constant", "no_ads", "true")
+vk.com#%#//scriptlet("set-constant", "isNoAdsForce", "true")
+vk.com#%#//scriptlet("set-constant", "hide_ad", "true")
+vk.com#%#//scriptlet("set-constant", "ya_direct", "false")
+vk.com#%#//scriptlet("set-constant", "yaDirectAdActive", "false")
+||ad.mail.ru^$domain=vk.com,important
+||ad.mail.ru/static/admanhtml/rbadman-html5.min.js^$domain=vk.com,important
+||vk.com/al_video.php?act=ads_stat^$domain=important
+||vk.com/js/cmodules/web/ads_light.$script
+||vk.com/css/al/ads_light.$script
+||ad.mail.ru/vp/*&duration=$domain=vk.com
+||vk.com/ads_rotate^$domain=important
+||vk.com/al_feed.php?ads_section^$domain=vk.com,important
 ||vk.com/js/al/mrtarg.js$important
 ||st.vk.com/css/al/mrtarg.*.css$important
 ||trk.mail.ru^$important
@@ -10,17 +47,145 @@
 ||vk.com/al_audio.php?act=listened_data$important
 ||vk.com/ads_rotate.php$important
 ||api.mycdn.me/api/log^
-m.vk.com##.mmi_ads
-m.vk.com##.feedAssistance_recommendedFriends.friendsRecommendedSliderWrap.feedAssistance.wall_item
-m.vk.com##.feedAssistance_promoButton.feedAssistance.wall_item
-m.vk.com##a.Row.al_menu.MainMenu__menuItem:nth-of-type(12)
-m.vk.com##div.basisDefault__row:nth-of-type(4)
-m.vk.com##div.basisDefault__row:nth-of-type(5)
-vk.com##.CatalogBlock__layout--placeholder.CatalogBlock__subscription_ru.CatalogBlock__content > .CatalogBlock__itemsContainer
-vk.com##.CatalogBlock__layout--in_block_separator.CatalogBlock__audio_friends_separator.CatalogBlock__content
-
-#remontka.pro
-remontka.pro##.yndx_top
+@@://vk.com/ads$document,~third-party
+@@://vk.com/exchange$document,important
+@@||oauth.vk.com$document
+@@||login.vk.com/?act=openapi$domain=220vk.com,stealth
+@@||vk.com/vkpay$stealth
+@@||oauth.vk.com/authorize?
+@@api_url=http://api.vk.com/api.php$jsinject
+@@api_url=https://api.vk.com/api.php$jsinject
+||vk.com/errors.php^$domain=vk.com,important
+||vk.com/upload_fails.php^$domain=vk.com,important
+vk.com###system_msg
+||trk.mail.ru$domain=vk.com,important
+||mc.yandex.ru/metrika/watch.js^$domain=vk.com,important
+||rs.mail.ru^$domain=vk.com,important
+||google-analytics.com/analytics.js^$domain=important
+||mail.ru/k?
+vk.com#?##page_wall_posts > div[id^="post-"]:-abp-has(.wall_marked_as_ads)
+vk.com###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"][-ext-has='div[class="wall_marked_as_ads"]']
+vk.com###page_wall_posts > div[id^="post-"][-ext-has='> div._post_content > div.post_content > div.post_info > div.wall_text > div.wall_post_cont > div.wall_marked_as_ads']
+vk.com###page_wall_posts > div[id^="post-"][-ext-has='div._post_content > div.post_content > div.post_info > div.wall_text > div.wall_marked_as_ads']
+vk.com##.wall_wrap div[id^="post-"][-ext-has='div.post_content > div.post_info > div.wall_text > div.wall_post_cont > div.wall_marked_as_ads']
+vk.com###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"]:has(div[class="wall_marked_as_ads"])
+vk.com##div[class^="feed_row "] > div[id^="feed_repost-"]:has(.wall_marked_as_ads)
+vk.com##.wall_marked_as_ads
+vk.com#?##page_wall_posts > div[id^="post-"]:-abp-has(.Post__copyright)
+vk.com###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"][-ext-has='div[class="Post__copyright"]']
+vk.com###page_wall_posts > div[id^="post-"][-ext-has='> div._post_content > div.post_content > div.post_info > div.wall_text > div.wall_post_cont > div.Post__copyright']
+vk.com###page_wall_posts > div[id^="post-"][-ext-has='div._post_content > div.post_content > div.post_info > div.wall_text > div.Post__copyright']
+vk.com##.wall_wrap div[id^="post-"][-ext-has='div.post_content > div.post_info > div.wall_text > div.wall_post_cont > div.Post__copyright']
+vk.com###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"]:has(div[class="Post__copyright"])
+vk.com##div[class^="feed_row "] > div[id^="feed_repost-"]:has(.Post__copyright)
+vk.com##.Post__copyright
+vk.com#?##page_wall_posts > div[id^="post-"]:-abp-has(.wall_authors_rec)
+vk.com###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"][-ext-has='div[class="wall_authors_rec"]']
+vk.com###page_wall_posts > div[id^="post-"][-ext-has='> div._post_content > div.post_content > div.post_info > div.wall_text > div.wall_post_cont > div.wall_authors_rec']
+vk.com###page_wall_posts > div[id^="post-"][-ext-has='div._post_content > div.post_content > div.post_info > div.wall_text > div.wall_authors_rec']
+vk.com##.wall_wrap div[id^="post-"][-ext-has='div.post_content > div.post_info > div.wall_text > div.wall_post_cont > div.wall_authors_rec']
+vk.com###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"]:has(div[class="wall_authors_rec"])
+vk.com##div[class^="feed_row "] > div[id^="feed_repost-"]:has(.wall_authors_rec)
+vk.com##.wall_authors_rec
+vk.com#?##page_wall_posts > div[id^="post-"]:-abp-has(.wall_live_recommended)
+vk.com###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"][-ext-has='div[class="wall_live_recommended"]']
+vk.com###page_wall_posts > div[id^="post-"][-ext-has='> div._post_content > div.post_content > div.post_info > div.wall_text > div.wall_post_cont > div.wall_live_recommended']
+vk.com###page_wall_posts > div[id^="post-"][-ext-has='div._post_content > div.post_content > div.post_info > div.wall_text > div.wall_live_recommended']
+vk.com##.wall_wrap div[id^="post-"][-ext-has='div.post_content > div.post_info > div.wall_text > div.wall_post_cont > div.wall_live_recommended']
+vk.com###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"]:has(div[class="wall_live_recommended"])
+vk.com##div[class^="feed_row "] > div[id^="feed_repost-"]:has(.wall_live_recommended)
+vk.com##.wall_live_recommended
+vk.com#?##page_wall_posts > div[id^="post-"]:-abp-has(.ShortVideoFeedBlock)
+vk.com###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"][-ext-has='div[class="ShortVideoFeedBlock"]']
+vk.com###page_wall_posts > div[id^="post-"][-ext-has='> div._post_content > div.post_content > div.post_info > div.wall_text > div.wall_post_cont > div.ShortVideoFeedBlock']
+vk.com###page_wall_posts > div[id^="post-"][-ext-has='div._post_content > div.post_content > div.post_info > div.wall_text > div.ShortVideoFeedBlock']
+vk.com##.wall_wrap div[id^="post-"][-ext-has='div.post_content > div.post_info > div.wall_text > div.wall_post_cont > div.ShortVideoFeedBlock']
+vk.com###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"]:has(div[class="ShortVideoFeedBlock"])
+vk.com##div[class^="feed_row "] > div[id^="feed_repost-"]:has(.ShortVideoFeedBlock)
+vk.com##.ShortVideoFeedBlock
+vk.com###feed_rows > div.feed_row:nth-child(9) > div.page_block.ShortVideoFeedBlock
+vk.com###page_block.ShortVideoFeedBlock
+vk.com##.apps_feedRightAppsBlock_new_apps.apps_feedRightAppsBlock.page_block
+vk.com##.apps_feedRightAppsBlock_single_app.apps_feedRightAppsBlock.page_block
+vk.com##.apps_feedRightAppsBlock_collaborative_recommend_apps.apps_feedRightAppsBlock.page_block
+vk.com###groups_filters_wrap > .page_block
+vk.com###groups_filters_wrap
+vk.com###feed_recommends
+vk.com##.feed_groups_recomm
+vk.com##.feed_friends_recomm
+vk.com###profile_friends_recomm
+vk.com###friends_possible_block
+vk.com###feed_filters
+vk.com###block_aliexpress-recommendations-carousel
+vk.com###recommended_narratives
+||static.doubleclick.net/instream/ad_status.js^$domain=important
+||googleads.g.doubleclick.net/pagead/id^$domain=important
+||ad.mail.ru/static/admanhtml/rbadman-html5.min.js^$domain=vk.com,important
+vk.com##[class^="ads_ad_"]
+vk.com##[class^="ads"]
+vk.com##.ads_ads_news_wrap
+vk.com##._ads_promoted_post_data_w
+vk.com##div#left_ads
+vk.com##div[data-ad-view]
+vk.com##div[data-ad]
+vk.com##div[ads_left]
+||tracker-api.my.com$domain=vk.com,important
+||top-fwz1.mail.ru/js/code.js$domain=vk.com,important
+||r.mail.ru$domain=vk.com,important
+||tns-counter.ru^$domain=vk.com,important
+||stats.vk-portal.net/uxzoom$domain=vk.com,important
+||stat.pladform.ru$domain=vk.com,important
+||stats.vk-portal.net^$domain=vk.com,important
+||vk.com/rtrg?^$domain=vk.com,important
+||vk.com/js/al/mrtarg.js^$domain=vk.com,important
+||vk.com/css/al/mrtarg.^$domain=vk.com,important
+||stats.vk-portal.net/web-stats$domain=vk.com,important
+vk.com###settings_ps_promo_big_banner_container
+vk.com##.settings_vkpay_promo_banner_link_a
+vk.com###settings_vkpay_promo_big_banner_container
+||vk.com/al_audio.php?act=need_show_promo^
+vk.com##.CatalogBlock__subscription, .CatalogSection__rightColumn > .CatalogSection__stickyColumn .CatalogBlock__separator
+vk.com##div#content > div._audio_page_layout.audio_page_layout.audio_page_layout2 > div._audio_page_content_block_wrap.audio_page_content_block_wrap > div.page_block._audio_page_content_block > div.audio_page_sections._audio_page_sections.clear_fix > div.audio_section.audio_w_covers._audio_section._audio_section__all.audio_section__all > div.audio_page_section_layout._audio_page_section_layout.has_friends_block > div.audio_page_all_layout_columns.clear_fix > div.audio_friends_list_wrap._audio_friends_list_wrap > div.audio_friends_list_content._audio_friends_list_content > div.audio_subscribe_promo
+vk.com##.audio_promo
+vk.com###content > div._audio_page_layout.audio_page_layout.audio_page_layout2 > div._audio_page_content_block_wrap.audio_page_content_block_wrap:nth-child(3) > div.audio_page_sections._audio_page_sections.clear_fix:last-child > div.audio_section._audio_section._audio_section__all.audio_section__all.clear_fix.audio_w_covers:last-child > div.CatalogSection.CatalogSection--divided.CatalogSection__my > div.CatalogBlock.CatalogBlock--divided:last-child > div.CatalogSection__columns > div.CatalogSection__rightColumn:last-child > div.CatalogSection__stickyColumn > div.CatalogBlock:last-child
+vk.com##.stories_feed_preview_item.story_feed_new_item.story_feed_new_item_promo
+vk.com##div#box_layer > div.popup_box_container.PushNotifierPopup__popup-box_type--suggest
+vk.com##.profile_rate_warning
+vk.com##.post_suggest._post_suggest
+vk.com##.ShortVideoStub
+vk.com#?##page_wall_posts > div[id^="post-"]:-abp-has(.wall_text_name_explain_promoted_post)
+vk.com###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"][-ext-has='div[class="wall_text_name_explain_promoted_post"]']
+vk.com#?##page_wall_posts > div[id^="post-"]:-abp-has(.MarketItemsFeedBlock)
+vk.com###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"][-ext-has='div[class="MarketItemsFeedBlock"]']
+vk.com#?##page_wall_posts > div[id^="post-"]:-abp-has(.block_aliexpress-recommendations-carousel)
+vk.com###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"][-ext-has='div[class="block_aliexpress-recommendations-carousel"]']
+vk.com#%#AG_onLoad(function(){window.icoNode = document.querySelector('head>link[rel*="shortcut"]')});
+vk.com#%#//scriptlet('set-constant', 'window.PageBottomBanners.initUnauthBanner', 'noopFunc')
+vk.com#%#//scriptlet('set-constant', 'window.Unauthorized2', 'undefined')
+vk.com##aside[aria-label="Актуальные новости"]
+vk.com###cookies_policy_wrap
+vk.com##.OldBrowser
+vk.com#?##page_wall_posts > div[id^="post-"]:-abp-has(.FeedVideosForYou)
+vk.com###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"][-ext-has='div[class="FeedVideosForYou"]']
+vk.com###page_wall_posts > div[id^="post-"][-ext-has='> div._post_content > div.post_content > div.post_info > div.wall_text > div.wall_post_cont > div.FeedVideosForYou']
+vk.com###page_wall_posts > div[id^="post-"][-ext-has='div._post_content > div.post_content > div.post_info > div.wall_text > div.FeedVideosForYou']
+vk.com##.wall_wrap div[id^="post-"][-ext-has='div.post_content > div.post_info > div.wall_text > div.wall_post_cont > div.FeedVideosForYou']
+vk.com###feed_rows > div[class="feed_row "] > div[class^="feed_repost-"]:has(div[class="FeedVideosForYou"])
+vk.com##div[class^="feed_row "] > div[id^="feed_repost-"]:has(.FeedVideosForYou)
+vk.com##.FeedVideosForYou
+vk.com###feed_rows > div.feed_row:nth-child(9) > div.page_block.FeedVideosForYou
+vk.com###page_block.FeedVideosForYou
+vk.com##.ReplyBoxDonut
+m.vk.com#?#.wall_item:has(> div.wi_body > div.ads_mark)
+m.vk.com##.wall_item[data-ad-view]
+m.vk.com##.wi_head[href*="/away.php?to="]
+m.vk.com##.wi_head[href*="/away.php?to="] + .wi_body
+m.vk.com#?#.wall_item:has(> div.wi_body > a.copyright_label)
+m.vk.com##[class^="_ads_block_data_w"]
+m.vk.com##.wall_item.feedAssistance.GroupsRecommendedSlider
+m.vk.com##.wall_item.feedAssistance.friendsRecommendedSliderWrap
+m.vk.com##.wall_item.post_exploreBait
+m.vk.com##.wall_item.post_withExtraHeader
 
 #newgrounds.com
 www.newgrounds.com##.ng-latest-supporter-wide
@@ -37,22 +202,6 @@ music.yandex.ru##.multi-auth__plus-rainbow.multi-auth__plus
 music.yandex.ru##.deco-link_no-hover-color.d-link_no-hover-color.deco-popup-menu__item.multi-auth__support.typo-main.multi-auth__item.deco-link.d-link
 music.yandex.ru##.d-link_no-hover.deco-link_no-hover-color.d-link_no-hover-color.deco-popup-menu__item.multi-auth__diag.typo-main.multi-auth__item.deco-link.d-link
 music.yandex.ru##.footer
-
-#yandex.ru
-yandex.*##.RF__WI
-
-#disk.yandex.ru
-disk.yandex.ru##.InfoSpace__Button.Button2_width_max.Button2_size_m.Button2_view_raised.Button2
-
-#spotify.com
-open.spotify.com##.Foyk_HJx16yh22JYmQ56
-open.spotify.com##li.DuEPSADpSwCcO880xjUG:nth-of-type(3) > .wC9sIed7pfp47wZbmU6m
-open.spotify.com##.Upqw01TOXETOmR5Td7Dj.jjUWAm.Button-y0gtbx-0
-open.spotify.com##a.Mn86uNsAfw66AwsZTQ1D:nth-of-type(4)
-
-#1001tracklists.com
-www.1001tracklists.com##.mb10
-www.1001tracklists.com##.mb5.adIDiv
 
 #mangalib.me & mangalib.org
 mangalib.*###chat
@@ -101,44 +250,49 @@ lib.social##div.header-menu__item > [href="https://lib.social/forum"]
 lib.social##.header-button.dropdown.header-menu__item > .header-button__icon
 lib.social##.py-10.px-10.m-menu__social
 
-#4pda.to
-4pda.to###TsDSwZh3cN
-4pda.to##[href^="https://4pda.to/huawei/"]
-
 #apkcombo.com
 apkcombo.com##div.revamp-top-ads.revamp-ads3
 apkcombo.com##.revamp-bottom-ads.revamp-ads3
 apkcombo.com##.navbar-end > a.navbar-item:nth-of-type(2)
 apkcombo.com##.navbar-end > a.navbar-item:nth-of-type(1)
 apkcombo.com##.mb-14.button-group > p
+apkcombo.com##.is-desktop-only.widget
+
+#ya.ru
+ya.ru##.alice-fab__promo_shown.alice-fab__promo
+
+#bin.sx
+bin.sx##center.noads:nth-of-type(2)
+bin.sx##.movilno
+
+#comohoy.com
+comohoy.com##body > .d-sm-block.d-none
+
+#leak.sx
+leak.sx##.noads
+leak.sx##.col-8.col-md-6.col-lg-4.col-4
+leak.sx##.align-items-center.d-flex.header__menu-wrapper
+leak.sx##.topwrap1
+leak.sx##.pb-30.pt-30.row
+leak.sx##.breadcrumb__list
+leak.sx##div.col-sm-6.col-md-6.col-lg-4.col-xl-4.col-xxl-4 > [href="https://pornleaks.in/"]
+leak.sx##.col-sm-12.col-md-12.col-lg-4.col-xl-4.col-xxl-4
+leak.sx##footer
 
 #animego.org
 animego.org###wrap > .d-flex
-
-#leak.sx
-leak.sx##.progress-wrap
-leak.sx##body > .d-sm-block.d-none
-
-#mail.yandex.ru
-mail.yandex.ru##.smartBannerToast-container.smartBannerToast
-
-#reverso.net
-www.reverso.net##.translation-box_documents-promo-tabs
 
 #music.youtube.com
 music.youtube.com##ytmusic-tastebuilder-shelf-renderer.ytmusic-section-list-renderer.style-scope
 music.youtube.com###share-targets
 
-#23.allhen.online
-23.allhen.online##.mainNews
+#2023.allhen.online
+2023.allhen.online##.mainNews
 
 #www.twitch.tv
 www.twitch.tv##.front-page-carousel.glKbrp.Layout-sc-nxg1ff-0
 www.twitch.tv##div.side-nav-section.cIfBon.Layout-sc-nxg1ff-0:nth-of-type(2)
-
-
-#wallpaperaccess.com
-wallpaperaccess.com##.content-center.flexbox_item
+www.twitch.tv##.front-page-carousel
 
 #soundcloud.com
 @@||va.sndcdn.com/bg/*
